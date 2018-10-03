@@ -12,8 +12,10 @@ public class Connect {
 Connection conn = null;
 try{
  String url = "jdbc:mysql://localhost:3306/db_artifact?serverTimezone=UTC&useSSL=false";
- String user = "root";
- String password = "fuwill1111";
+ 
+ // Insert user name and password here
+ String user = "";
+ String password = "";
  conn = DriverManager.getConnection(url, user, password);
 }catch(SQLException e){
  e.printStackTrace();
